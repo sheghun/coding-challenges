@@ -5,6 +5,7 @@ import (
 	"slices"
 )
 
+// https://leetcode.com/problems/find-the-winner-of-an-array-game/description/?source=submission-ac
 func main() {
 	fmt.Println(getWinner1([]int{3, 2, 1}, 10))
 	fmt.Println(getWinner2([]int{3, 2, 1}, 10))
