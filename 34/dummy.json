@@ -1,0 +1,14 @@
+{"quotes":[{"id":1,"quote":"Life isn’t about getting and having, it’s about giving and being.","author":"Kevin Kruse"},{"id":2,"quote":"Whatever the mind of man can conceive and believe, it can achieve.","author":"Napoleon Hill"}],"total":100,"skip":0,"limit":2,
+
+  "parents": [
+    {
+      "sha": "83674b9eccc226ce03cca0772f623e1ffc497e3a",
+      "url": "https://api.github.com/repos/CodingChallegesFYI/SharedSolutions/commits/83674b9eccc226ce03cca0772f623e1ffc497e3a",
+      "html_url": "https://github.com/CodingChallegesFYI/SharedSolutions/commit/83674b9eccc226ce03cca0772f623e1ffc497e3a"
+    },
+    {
+      "sha": "a755a73feb66bb8d84f5be0742ef226ff74f4165",
+      "url": "https://api.github.com/repos/CodingChallegesFYI/SharedSolutions/commits/a755a73feb66bb8d84f5be0742ef226ff74f4165",
+      "html_url": "https://github.com/CodingChallegesFYI/SharedSolutions/commit/a755a73feb66bb8d84f5be0742ef226ff74f4165"
+    }
+  ]
