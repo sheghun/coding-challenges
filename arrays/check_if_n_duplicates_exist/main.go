@@ -9,13 +9,13 @@ func checkIfExist(arr []int) bool {
 
 	seen := make(map[int]int)
 
-  for i, val := range arr {
-    seen[val] = i
-  }
+	for i, val := range arr {
+		seen[val] = i
+	}
 
 	for i := 0; i < len(arr); i++ {
 		val := arr[i] * 2
-    if j, ok := seen[val]; ok && j != i {
+		if j, ok := seen[val]; ok && j != i {
 			return true
 		}
 	}
@@ -23,5 +23,5 @@ func checkIfExist(arr []int) bool {
 }
 
 func main() {
-  fmt.Println(checkIfExist([]int{-2,0,10,-19,4,6,-8}))
+	fmt.Println(checkIfExist([]int{-2, 0, 10, -19, 4, 6, -8}))
 }

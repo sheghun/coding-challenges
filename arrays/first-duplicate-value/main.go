@@ -9,7 +9,7 @@ func firstDuplicate(arr []int) int {
 	for _, num := range arr {
 		i := int(math.Abs(float64(num))) - 1
 		if arr[i] < 0 {
-			return int(math.Abs(float64(num))) 
+			return int(math.Abs(float64(num)))
 		} else {
 			arr[i] = arr[i] * -1
 		}

@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-// Test case struct
+// Test case struct.
 type testCase struct {
 	input    []int
 	expected int
 }
 
-// Helper function to compare two arrays for equality
+// Helper function to compare two arrays for equality.
 func assertEqual(t *testing.T, got, expected int) {
 	if got != expected {
 		t.Errorf("got %d, expected %d", got, expected)

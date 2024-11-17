@@ -33,7 +33,6 @@ func SpiralTraverse(arr [][]int) (arr2 []int) {
 				arr2 = append(arr2, arr[bottom][i])
 			}
 			bottom--
-
 		}
 
 		if left <= right {

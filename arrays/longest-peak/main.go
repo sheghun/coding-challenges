@@ -10,7 +10,6 @@ func longestPeak(arr []int) int {
 	}
 
 	for i := 1; i < len(arr)-1; i++ {
-
 		h := i - 1
 		j := i + 1
 

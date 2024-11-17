@@ -5,8 +5,7 @@ import "fmt"
 // https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/
 
 func main() {
-	//fmt.Println(minSwaps([][]int{[]int{0, 0, 1}, []int{1, 1, 0}, []int{1, 0, 0}}))
-	fmt.Println(minSwaps([][]int{[]int{1, 0, 0}, []int{1, 1, 0}, []int{1, 1, 1}}))
+	fmt.Println(minSwaps([][]int{{1, 0, 0}, {1, 1, 0}, {1, 1, 1}}))
 }
 
 func minSwaps(grid [][]int) int {
