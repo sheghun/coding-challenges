@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // leetcode problem 27 remove duplicates from sorted array
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
@@ -24,4 +26,7 @@ func removeDuplicates(nums []int) int {
 }
 
 func main() {
+	duplicates := []int{1, 1, 2}
+	_ = removeDuplicates(duplicates)
+	fmt.Println(duplicates)
 }

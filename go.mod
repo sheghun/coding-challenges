@@ -1,3 +1,3 @@
-module github.com/coding-challenge
+module github.com/sheghun/coding-challenges
 
-go 1.22.1
+go 1.23.3
